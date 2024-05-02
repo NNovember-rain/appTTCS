@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:id="@+id/layoutPhoneNumber"
+        android:background="@drawable/custom_backgroup"
+        tools:context=".view.login.LoginAdminActivity">
+
+        <ImageView
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/book"
+            android:layout_width="200dp"
+            android:layout_height="200dp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtPhoneAdmin"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:drawablePadding="20dp"
+            android:drawableLeft="@drawable/ic_phone"
+            android:hint=" Input Phone Nummber"
+            android:background="@drawable/custom_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnNextSendSMS"
+            android:textSize="20sp"
+            android:visibility="gone"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:text="Next"
+            android:layout_gravity="bottom"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+
+    </LinearLayout>
+    <include layout="@layout/verify_phone"
+        />
+</LinearLayout>

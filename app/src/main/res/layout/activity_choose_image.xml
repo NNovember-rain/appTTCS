@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.book.ChooseImageActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarChooseImages"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:titleTextColor="@color/colorWhite"
+        app:title="Choose Images"
+        android:background="@color/colorBackgroup"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <GridView
+        android:id="@+id/gvImagesLocal"
+        android:numColumns="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></GridView>
+
+
+    <TextView
+        android:id="@+id/txtAmountImagesChooose"
+        android:padding="10dp"
+        android:layout_gravity="bottom"
+        android:background="@color/colorBackgroup"
+        android:text="0/3"
+        android:textColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorBackgroup</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.ProgressBar">
+        <item name="colorAccent">@color/colorBackgroup</item>
+        <item name="android:src">@drawable/book</item>
+    </style>
+
+    <style name="AppTheme.TextView">
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/custom_font</item>
+        <item name="android:textColor">@color/colorBackgroup</item>
+    </style>
+
+    <style name="AppTheme.ButtonCustom">
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/custom_font</item>
+        <item name="android:background">@drawable/custom_button_fb_gg</item>
+    </style>
+
+    <style name="AppTheme.CustomButtonDialog">
+        <item name="android:fontFamily">@font/custom_font</item>
+        <item name="android:background">@drawable/custom_button_dialog</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

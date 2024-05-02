@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Book Manager PS09103</string>
+
+    <string name="login_account">Login Account</string>
+
+    <!--facebook key-->
+    <string name="facebook_app_id">703082543437524</string>
+    <string name="fb_login_protocol_scheme">fb703082543437524</string>
+    <string name="apikey_google">AIzaSyBrZT5acqaqK--bMwnGBBZoW2W3LSOspIs</string>
+
+
+    <!--Google key-->
+    <!--<string name="default_web_client_id">854062966853-65b8354c45rvt7hs89iukuov68g82mg2.apps.googleusercontent.com</string>-->
+
+
+    <string name="title_activity_home">Book Manager</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Name</string>
+    <string name="nav_header_subtitle">abc@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_tyle">Type book</string>
+    <string name="menu_book">Book</string>
+    <string name="menu_info">Information</string>
+    <string name="menu_bill">Bill</string>
+    <string name="menu_statistical">Statistical</string>
+    <string name="menu_exit">Exit</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="warning">Warning</string>
+    <string name="wantExit">Do you want to exit?</string>
+    <string name="other">Other</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="day">Day</string>
+    <string name="month">Month</string>
+    <string name="changepass">Change Password</string>
+    <string name="bookname">Book name</string>
+    <string name="author">Author</string>
+    <string name="price">Price</string>
+    <string name="amount">Amount</string>
+    <string name="email_invalid">Your Email Id is Invalid.</string>
+    <string name="weak_password">Weak password</string>
+    <string name="youhavenotinput">You have not input</string>
+    <string name="success">Success!</string>
+    <string name="failure">Failure</string>
+    <string name="error">Error</string>
+    <string name="edit">Edit</string>
+    <string name="wantDelete">Do you want to delete</string>
+    <string name="email">Email</string>
+    <string name="getpass">Do you want to get a password?</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="manager">Manager</string>
+    <string name="addUser">Add User</string>
+    <string name="pass">Password</string>
+    <string name="notthingdata">Notthing Data</string>
+    <string name="change_pass_success">Change your password successfully, check your email</string>
+    <string name="login_admin">Login Admin</string>
+    <string name="enter_phone_nummber">Enter OTP send to phone number 0392350815</string>
+    <string name="number_of_allowed_times">You have confirmed the number of allowed times. Please try again later</string>
+    <string name="choose_products">Choose Products</string>
+    <string name="addBill">Create Bill</string>
+    <string name="addCustomer">Add Customer</string>
+    <string name="add_customer">Add Customer</string>
+    <string name="no_data">No Data =))</string>
+
+</resources>
