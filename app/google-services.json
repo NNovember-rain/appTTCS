@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:854062966853:android:c44feaacffa1b96c701b2c",
         "android_client_info": {
-          "package_name": "vn.mrlongg71.ps09103_assignment"
+          "package_name": "vn.libaryapp.ps09103_assignment"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "854062966853-7j4sfa9sjcttte36n6ohf0sdvlb9iua5.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "vn.mrlongg71.ps09103_assignment",
+            "package_name": "vn.libaryapp.ps09103_assignment",
             "certificate_hash": "055ab13de40260c83cdc696f7c3eb9768e10a230"
           }
         },
